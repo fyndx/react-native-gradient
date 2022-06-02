@@ -1,0 +1,40 @@
+{
+  "name": "react-native-fabric-linear-gradient",
+  "version": "0.0.1",
+  "description": "Linear Gradient for React Native Fabric",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+      "src",
+      "android",
+      "ios",
+      "react-native-fabric-linear-gradient.podspec",
+      "!android/build",
+      "!ios/build",
+      "!**/__tests__",
+      "!**/__fixtures__",
+      "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android", "linear-gradient"],
+  "repository": "https://github.com/chakrihacker/react-native-fabric-linear-gradient",
+  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/chakrihacker)",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/chakrihacker/react-native-fabric-linear-gradient/issues"
+  },
+  "homepage": "https://github.com/chakrihacker/react-native-fabric-linear-gradient#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+  },
+  "codegenConfig": {
+      "libraries": [
+          {
+          "name": "RNLinearGradientViewSpec",
+          "type": "components",
+          "jsSrcsDir": "src"
+          }
+      ]
+  }
+}
