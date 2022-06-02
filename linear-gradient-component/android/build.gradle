@@ -11,15 +11,8 @@ buildscript {
     }
 }
 
-def isNewArchitectureEnabled() {
-    return project.hasProperty("newArchEnabled") && project.newArchEnabled == "true"
-}
-
 apply plugin: 'com.android.library'
-
-if (isNewArchitectureEnabled()) {
-    apply plugin: 'com.facebook.react'
-}
+apply plugin: 'com.facebook.react'
 
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 31)
@@ -43,10 +36,8 @@ dependencies {
     implementation 'com.facebook.react:react-native:+'
 }
 
-if (isNewArchitectureEnabled()) {
-    react {
-        jsRootDir = file("../src/")
-        libraryName = "lineargradientview"
-        codegenJavaPackageName = "com.fyndx.LineGradient"
-    }
+react {
+    jsRootDir = file("../src/")
+    libraryName = "lineargradientview"
+    codegenJavaPackageName = "com.fyndx.LinearGradient"
 }

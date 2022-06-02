@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "18.0.0",
-    "react-native": "0.69.0-rc.3"
+    "react-native": "0.69.0-rc.6",
+    "react-native-fabric-linear-gradient": "link:./../linear-gradient-component/"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

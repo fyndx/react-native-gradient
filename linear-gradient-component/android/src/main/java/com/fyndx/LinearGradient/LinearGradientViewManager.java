@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.module.annotations.ReactModule;
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
@@ -16,10 +17,11 @@ import com.facebook.react.viewmanagers.LinearGradientViewManagerDelegate;
 import com.facebook.react.viewmanagers.LinearGradientViewManagerInterface;
 
 @ReactModule(name = LinearGradientViewManager.NAME)
-public class LinearGradientViewManager extends SimpleViewManager<LinearGradientView>
+public class LinearGradientViewManager extends SimpleViewManager<LinearGradientView> 
     implements LinearGradientViewManagerInterface<LinearGradientView> {
 
   public static final String NAME = "LinearGradientView";
+
 
   private final ViewManagerDelegate<LinearGradientView> mDelegate;
 
@@ -45,56 +47,44 @@ public class LinearGradientViewManager extends SimpleViewManager<LinearGradientV
   }
 
   @Override
-  @ReactProp(name = PROP_COLORS)
-  public void setColors(LinearGradientView gradientView, ReadableArray colors) {
-    gradientView.setColors(colors);
+  @ReactProp(name = "start")
+  public void setStart(LinearGradientView view, @Nullable ReadableMap startPos) {
+    view.setStartPosition(startPos);
   }
 
   @Override
-  @ReactProp(name = PROP_LOCATIONS)
-  public void setLocations(LinearGradientView gradientView, ReadableArray locations) {
-    if (locations != null) {
-      gradientView.setLocations(locations);
-    }
+  @ReactProp(name = "end")
+  public void setEnd(LinearGradientView view, @Nullable ReadableMap endPos) {
+    view.setEndPosition(endPos);
   }
 
   @Override
-  @ReactProp(name = PROP_START_POS)
-  public void setStartPosition(LinearGradientView gradientView, ReadableArray startPos) {
-    gradientView.setStartPosition(startPos);
+  @ReactProp(name = "colors")
+  public void setColors(LinearGradientView view, @Nullable ReadableArray colors) {
+    view.setColors(colors);
   }
 
   @Override
-  @ReactProp(name = PROP_END_POS)
-  public void setEndPosition(LinearGradientView gradientView, ReadableArray endPos) {
-    gradientView.setEndPosition(endPos);
+  @ReactProp(name = "locations")
+  public void setLocations(LinearGradientView view, @Nullable ReadableArray locations) {
+    view.setLocations(locations);
   }
 
   @Override
-  @ReactProp(name = PROP_USE_ANGLE, defaultBoolean = false)
-  public void setUseAngle(LinearGradientView gradientView, boolean useAngle) {
-    gradientView.setUseAngle(useAngle);
+  @ReactProp(name = "useAngle")
+  public void setUseAngle(LinearGradientView view, boolean useAngle) {
+    view.setUseAngle(useAngle);
   }
 
   @Override
-  @ReactProp(name = PROP_ANGLE_CENTER)
-  public void setAngleCenter(LinearGradientView gradientView, ReadableArray in) {
-    gradientView.setAngleCenter(in);
+  @ReactProp(name = "angleCenter")
+  public void setAngleCenter(LinearGradientView view, @Nullable ReadableMap angleCenter) {
+    view.setAngleCenter(angleCenter);
   }
 
   @Override
-  @ReactProp(name = PROP_ANGLE, defaultFloat = 45.0f)
-  public void setAngle(LinearGradientView gradientView, float angle) {
-    gradientView.setAngle(angle);
+  @ReactProp(name = "angle")
+  public void setAngle(LinearGradientView view, float angle) {
+    view.setAngle(angle);
   }
-
-  // TODO: verify if this is still necessary
-  // temporary solution until following issue is resolved:
-  // https://github.com/facebook/react-native/issues/3198
-  @Override
-  @ReactProp(name = PROP_BORDER_RADII)
-  public void setBorderRadii(LinearGradientView gradientView, ReadableArray borderRadii) {
-    gradientView.setBorderRadii(borderRadii);
-  }
-
 }
