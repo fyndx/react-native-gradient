@@ -2,6 +2,7 @@
 import type { ViewProps } from "react-native/Libraries/Components/View/ViewPropTypes";
 import type { HostComponent } from "react-native";
 import type { Float } from "react-native/Libraries/Types/CodegenTypes";
+import type { ColorValue } from "react-native/Libraries/StyleSheet/StyleSheet";
 import { ViewStyle } from "react-native";
 import codegenNativeComponent from "react-native/Libraries/Utilities/codegenNativeComponent";
 
@@ -11,7 +12,7 @@ type NativeProps = $ReadOnly<{|
   ...ViewProps,
   start?: Point,
   end?: Point,
-  colors: $ReadOnlyArray<string>,
+  colors: $ReadOnlyArray<ColorValue>,
   locations?: $ReadOnlyArray<Float>,
   useAngle?: boolean,
   angleCenter?: Point,
