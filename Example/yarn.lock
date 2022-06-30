@@ -5447,7 +5447,7 @@ react-native-codegen@^0.69.1:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
-"react-native-fabric-linear-gradient@link:../linear-gradient-component":
+"react-native-gradient@link:../gradient-component":
   version "0.0.0"
   uid ""
 

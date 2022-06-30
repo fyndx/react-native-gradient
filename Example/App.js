@@ -17,7 +17,7 @@ import {
   View,
 } from 'react-native';
 
-import LinearGradient from 'react-native-fabric-linear-gradient';
+import LinearGradient from 'react-native-gradient';
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 

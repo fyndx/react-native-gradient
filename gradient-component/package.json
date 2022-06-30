@@ -1,5 +1,5 @@
 {
-    "name": "react-native-fabric-linear-gradient",
+    "name": "react-native-gradient",
     "version": "0.0.1",
     "description": "Linear Gradient for React Native Fabric",
     "react-native": "src/index",
@@ -8,7 +8,7 @@
         "src",
         "android",
         "ios",
-        "react-native-fabric-linear-gradient.podspec",
+        "react-native-gradient.podspec",
         "!android/build",
         "!ios/build",
         "!**/__tests__",
@@ -21,13 +21,13 @@
         "android",
         "linear-gradient"
     ],
-    "repository": "https://github.com/chakrihacker/react-native-fabric-linear-gradient",
+    "repository": "https://github.com/FyndX/react-native-gradient",
     "author": "<Subramanya Chakravarthy> <subramanya@fyndx.io> (https://github.com/chakrihacker)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/chakrihacker/react-native-fabric-linear-gradient/issues"
+        "url": "https://github.com/FyndX/react-native-gradient/issues"
     },
-    "homepage": "https://github.com/chakrihacker/react-native-fabric-linear-gradient#readme",
+    "homepage": "https://github.com/FyndX/react-native-gradient#readme",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@babel/runtime": "^7.18.3"
