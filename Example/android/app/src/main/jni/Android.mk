@@ -34,7 +34,6 @@ LOCAL_SHARED_LIBRARIES := \
   libglog \
   libjsi \
   libreact_codegen_rncore \
-  # react_codegen_lineargradientview should work as well
   libreact_codegen_lineargradientview \
   libreact_debug \
   libreact_nativemodule_core \
