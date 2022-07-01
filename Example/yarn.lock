@@ -781,6 +781,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fyndx/react-native-gradient@link:../gradient-component":
+  version "0.0.0"
+  uid ""
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
@@ -5446,10 +5450,6 @@ react-native-codegen@^0.69.1:
     flow-parser "^0.121.0"
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
-
-"react-native-gradient@link:../gradient-component":
-  version "0.0.0"
-  uid ""
 
 react-native-gradle-plugin@^0.0.7:
   version "0.0.7"

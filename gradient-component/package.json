@@ -39,7 +39,7 @@
     "codegenConfig": {
         "libraries": [
             {
-                "name": "RNLinearGradientViewSpec",
+                "name": "react-native-gradient",
                 "type": "components",
                 "jsSrcsDir": "src"
             }

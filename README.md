@@ -57,7 +57,7 @@ The following code will produce something like this:
 ![Example code result](https://raw.githubusercontent.com/react-native-community/react-native-linear-gradient/master/images/example.png)
 
 ```javascript
-import LinearGradient from "react-native-gradient";
+import { LinearGradient } from "react-native-gradient";
 
 // Within your render function
 <LinearGradient
@@ -194,10 +194,10 @@ Ensure you import the `LinearGradient` correctly:
 
 ```javascript
 // Like that:
-import LinearGradient from "react-native-gradient";
+import { LinearGradient } from "react-native-gradient";
 
 // Not like that:
-import { LinearGradient } from "react-native-gradient";
+import LinearGradient from "react-native-gradient";
 ```
 
 ### Other

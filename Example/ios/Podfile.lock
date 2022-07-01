@@ -73,7 +73,6 @@ PODS:
     - FlipperKit/FlipperKitNetworkPlugin
   - fmt (6.2.1)
   - glog (0.3.5)
-  - hermes-engine (0.69.0)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.06.28.00-v2):
@@ -92,12 +91,6 @@ PODS:
     - DoubleConversion
     - fmt (~> 6.2.1)
     - glog
-  - RCT-Folly/Futures (2021.06.28.00-v2):
-    - boost
-    - DoubleConversion
-    - fmt (~> 6.2.1)
-    - glog
-    - libevent
   - RCTRequired (0.69.0)
   - RCTTypeSafety (0.69.0):
     - FBLazyVector (= 0.69.0)
@@ -588,17 +581,6 @@ PODS:
   - React-graphics (0.69.0):
     - RCT-Folly/Fabric (= 2021.06.28.00-v2)
     - React-Core/Default (= 0.69.0)
-  - React-hermes (0.69.0):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2021.06.28.00-v2)
-    - RCT-Folly/Futures (= 2021.06.28.00-v2)
-    - React-cxxreact (= 0.69.0)
-    - React-jsi (= 0.69.0)
-    - React-jsiexecutor (= 0.69.0)
-    - React-jsinspector (= 0.69.0)
-    - React-perflogger (= 0.69.0)
   - React-jsi (0.69.0):
     - boost (= 1.76.0)
     - DoubleConversion
@@ -625,7 +607,7 @@ PODS:
   - React-jsinspector (0.69.0)
   - React-logger (0.69.0):
     - glog
-  - react-native-gradient (0.0.1):
+  - react-native-gradient (0.1.0):
     - RCT-Folly (= 2021.06.28.00-v2)
     - RCTRequired
     - RCTTypeSafety
@@ -737,8 +719,6 @@ DEPENDENCIES:
   - FlipperKit/FlipperKitUserDefaultsPlugin (= 0.125.0)
   - FlipperKit/SKIOSNetworkPlugin (= 0.125.0)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - hermes-engine (from `../node_modules/react-native/sdks/hermes/hermes-engine.podspec`)
-  - libevent (~> 2.1.12)
   - OpenSSL-Universal (= 1.1.1100)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -755,7 +735,6 @@ DEPENDENCIES:
   - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
   - React-Fabric (from `../node_modules/react-native/ReactCommon`)
   - React-graphics (from `../node_modules/react-native/ReactCommon/react/renderer/graphics`)
-  - React-hermes (from `../node_modules/react-native/ReactCommon/hermes`)
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsi/Fabric (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
@@ -807,8 +786,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/React/FBReactNativeSpec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
-  hermes-engine:
-    :podspec: "../node_modules/react-native/sdks/hermes/hermes-engine.podspec"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -833,8 +810,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   React-graphics:
     :path: "../node_modules/react-native/ReactCommon/react/renderer/graphics"
-  React-hermes:
-    :path: "../node_modules/react-native/ReactCommon/hermes"
   React-jsi:
     :path: "../node_modules/react-native/ReactCommon/jsi"
   React-jsiexecutor:
@@ -893,7 +868,6 @@ SPEC CHECKSUMS:
   FlipperKit: cbdee19bdd4e7f05472a66ce290f1b729ba3cb86
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 3d02b25ca00c2d456734d0bcff864cbc62f6ae1a
-  hermes-engine: 03851318b18b534b671ea435fad2202154135c72
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 4d8508a426467c48885f1151029bc15fa5d7b3b8
@@ -908,12 +882,11 @@ SPEC CHECKSUMS:
   React-cxxreact: 51a2239091bc13a3c0b5b1cb445b1585a483df2d
   React-Fabric: af0fa77fddba0f13b775856ae19117934ec5cfb0
   React-graphics: 2d0bc92b641fb84924ff55f98161391ce5112372
-  React-hermes: 585652ef95faf9ad06066b3b27fe336b6cc44e64
   React-jsi: 80aef7359ddaacd86f7247fec6a8dff4db099dc6
   React-jsiexecutor: b2a049b9f156342f6037ccb0c8acf69f923d3089
   React-jsinspector: 6aced68014b275b7abd073c9598b0affd0e1669c
   React-logger: bcf33ce10afa135158c72635e621ddb94126c610
-  react-native-gradient: 0895d0d9bd46e32612b3bdc3ca14a580f2b0dd0f
+  react-native-gradient: 0420a9a25b7642f9970f5e7acfdbdcacc83f6677
   React-perflogger: aa48956d87bae67fc847acc196fae97928b96cd3
   React-RCTActionSheet: 4eaab2b885130ce9a88c8fdac5f1992315da80f6
   React-RCTAnimation: 5e91e3ceb988838fa43615bb602181be30d2b26e
@@ -932,6 +905,6 @@ SPEC CHECKSUMS:
   Yoga: 4935173923cabaa830e195be3e8e4cac045a8f90
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 98841755ce20b62bbb2a9dedc38422c69550150e
+PODFILE CHECKSUM: 95f62bcf07792329882fe76f78d7dbefb63ebd61
 
 COCOAPODS: 1.11.2
