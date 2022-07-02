@@ -21,13 +21,13 @@
         "android",
         "linear-gradient"
     ],
-    "repository": "https://github.com/FyndX/react-native-gradient",
+    "repository": "https://github.com/fyndx/react-native-gradient",
     "author": "<Subramanya Chakravarthy> <subramanya@fyndx.io> (https://github.com/chakrihacker)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/FyndX/react-native-gradient/issues"
+        "url": "https://github.com/fyndx/react-native-gradient/issues"
     },
-    "homepage": "https://github.com/FyndX/react-native-gradient#readme",
+    "homepage": "https://github.com/fyndx/react-native-gradient#readme",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@babel/runtime": "^7.18.3"

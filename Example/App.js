@@ -17,7 +17,7 @@ import {
   View,
 } from 'react-native';
 
-import {LinearGradient} from '@fyndx/react-native-gradient';
+import {LinearGradient} from 'rnx-gradient';
 
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 
