@@ -1,5 +1,5 @@
 {
-    "name": "@fyndx/react-native-gradient",
+    "name": "rnx-gradient",
     "version": "0.1.0",
     "description": "Linear Gradient for React Native Fabric",
     "react-native": "src/index",
