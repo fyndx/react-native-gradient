@@ -47,7 +47,11 @@
 		376121E3284B253000C3400F = {
 			isa = PBXGroup;
 			children = (
-				376121EE284B253000C3400F /* RNLinearGradientView */,
+				376121F0284B253000C3400F /* RNLinearGradientViewManager.mm */,
+				376121F8284B33D500C3400F /* RNLinearGradientView.h */,
+				376121F9284B355A00C3400F /* RNLinearGradientView.mm */,
+				378C76EA284B885C00ED7209 /* LinearGradientLayer.h */,
+				378C76EB284B888600ED7209 /* LinearGradientLayer.mm */,
 				376121ED284B253000C3400F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,18 +62,6 @@
 				376121EC284B253000C3400F /* libRNLinearGradientView.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		376121EE284B253000C3400F /* RNLinearGradientView */ = {
-			isa = PBXGroup;
-			children = (
-				376121F0284B253000C3400F /* RNLinearGradientViewManager.mm */,
-				376121F8284B33D500C3400F /* RNLinearGradientView.h */,
-				376121F9284B355A00C3400F /* RNLinearGradientView.mm */,
-				378C76EA284B885C00ED7209 /* LinearGradientLayer.h */,
-				378C76EB284B888600ED7209 /* LinearGradientLayer.mm */,
-			);
-			path = RNLinearGradientView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
