@@ -10,10 +10,10 @@
 
 #import <React/RCTConversions.h>
 #import <React/RCTConvert.h>
-#import <react/renderer/components/react-native-gradient/ComponentDescriptors.h>
-#import <react/renderer/components/react-native-gradient/EventEmitters.h>
-#import <react/renderer/components/react-native-gradient/Props.h>
-#import <react/renderer/components/react-native-gradient/RCTComponentViewHelpers.h>
+#import <react/renderer/components/rnx-gradient/ComponentDescriptors.h>
+#import <react/renderer/components/rnx-gradient/EventEmitters.h>
+#import <react/renderer/components/rnx-gradient/Props.h>
+#import <react/renderer/components/rnx-gradient/RCTComponentViewHelpers.h>
 
 #import "RCTFabricComponentsPlugins.h"
 

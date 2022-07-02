@@ -39,7 +39,7 @@
     "codegenConfig": {
         "libraries": [
             {
-                "name": "react-native-gradient",
+                "name": "rnx-gradient",
                 "type": "components",
                 "jsSrcsDir": "src"
             }

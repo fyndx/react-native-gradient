@@ -1,4 +1,4 @@
-# react-native-gradient
+# rnx-gradient
 
 A `<LinearGradient>` element for React Native above 0.68.
 
@@ -22,28 +22,18 @@ A `<LinearGradient>` element for React Native above 0.68.
 Using Yarn
 
 ```sh
-yarn add react-native-gradient
+yarn add rnx-gradient
 ```
 
 Using npm
 
 ```sh
-npm install react-native-gradient --save
+npm install rnx-gradient --save
 ```
 
 ### With React Native >= 0.60
 
 Run `npx pod-install`
-
-## Linking (for React Native <= 0.59 only)
-
-Note: If you are using react-native version 0.60 or higher you don't need to link [react-native-gradient](https://github.com/FyndX/react-native-gradient).
-
-### Automatic
-
-```sh
-react-native link react-native-gradient
-```
 
 ## Examples
 
@@ -57,7 +47,7 @@ The following code will produce something like this:
 ![Example code result](https://raw.githubusercontent.com/react-native-community/react-native-linear-gradient/master/images/example.png)
 
 ```javascript
-import { LinearGradient } from "react-native-gradient";
+import { LinearGradient } from "rnx-gradient";
 
 // Within your render function
 <LinearGradient
@@ -194,10 +184,10 @@ Ensure you import the `LinearGradient` correctly:
 
 ```javascript
 // Like that:
-import { LinearGradient } from "react-native-gradient";
+import { LinearGradient } from "rnx-gradient";
 
 // Not like that:
-import LinearGradient from "react-native-gradient";
+import LinearGradient from "rnx-gradient";
 ```
 
 ### Other
