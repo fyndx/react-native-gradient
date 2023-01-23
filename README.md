@@ -4,9 +4,8 @@ A `<LinearGradient>` element for React Native above 0.68.
 
 > **Warning**: This Package is only for New Architecture.
 
-[![ci][1]][2]
-[![npm version][3]][4]
-[![npm downloads][5]][4]
+[![npm version][1]][2]
+[![npm downloads][3]][2]
 
 ## Table of Contents
 
@@ -207,8 +206,6 @@ For other troubleshooting issues, go to [React Native Troubleshooting](https://r
 
 MIT
 
-[1]: https://github.com/FyndX/react-native-gradient/workflows/ci/badge.svg
-[2]: https://github.com/FyndX/react-native-gradient/actions
-[3]: https://img.shields.io/npm/v/rnx-gradient.svg
-[4]: https://www.npmjs.com/package/react-native-gradient
-[5]: https://img.shields.io/npm/dm/rnx-gradient.svg
+[1]: https://img.shields.io/npm/v/rnx-gradient.svg
+[2]: https://www.npmjs.com/package/rnx-gradient
+[3]: https://img.shields.io/npm/dm/rnx-gradient.svg
