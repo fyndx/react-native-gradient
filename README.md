@@ -23,17 +23,15 @@ Using Yarn
 
 ```sh
 yarn add rnx-gradient
+npx pod-install
 ```
 
 Using npm
 
 ```sh
 npm install rnx-gradient --save
+npx pod-install
 ```
-
-### With React Native >= 0.60
-
-Run `npx pod-install`
 
 ## Examples
 
@@ -211,6 +209,6 @@ MIT
 
 [1]: https://github.com/FyndX/react-native-gradient/workflows/ci/badge.svg
 [2]: https://github.com/FyndX/react-native-gradient/actions
-[3]: https://img.shields.io/npm/v/react-native-gradient.svg
+[3]: https://img.shields.io/npm/v/rnx-gradient.svg
 [4]: https://www.npmjs.com/package/react-native-gradient
-[5]: https://img.shields.io/npm/dm/react-native-gradient.svg
+[5]: https://img.shields.io/npm/dm/rnx-gradient.svg
