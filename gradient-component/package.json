@@ -1,6 +1,6 @@
 {
     "name": "rnx-gradient",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Linear Gradient for React Native Fabric",
     "react-native": "src/index",
     "source": "src/index",
