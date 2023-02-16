@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		376121EC284B253000C3400F /* libRNLinearGradientView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNLinearGradientView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		376121EC284B253000C3400F /* libRNXGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNXGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		376121F0284B253000C3400F /* RNLinearGradientViewManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RNLinearGradientViewManager.mm; sourceTree = "<group>"; };
 		376121F8284B33D500C3400F /* RNLinearGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLinearGradientView.h; sourceTree = "<group>"; };
 		376121F9284B355A00C3400F /* RNLinearGradientView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RNLinearGradientView.mm; sourceTree = "<group>"; };
@@ -47,7 +47,11 @@
 		376121E3284B253000C3400F = {
 			isa = PBXGroup;
 			children = (
-				376121EE284B253000C3400F /* RNLinearGradientView */,
+				376121F0284B253000C3400F /* RNLinearGradientViewManager.mm */,
+				376121F8284B33D500C3400F /* RNLinearGradientView.h */,
+				376121F9284B355A00C3400F /* RNLinearGradientView.mm */,
+				378C76EA284B885C00ED7209 /* LinearGradientLayer.h */,
+				378C76EB284B888600ED7209 /* LinearGradientLayer.mm */,
 				376121ED284B253000C3400F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,29 +59,17 @@
 		376121ED284B253000C3400F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				376121EC284B253000C3400F /* libRNLinearGradientView.a */,
+				376121EC284B253000C3400F /* libRNXGradient.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		376121EE284B253000C3400F /* RNLinearGradientView */ = {
-			isa = PBXGroup;
-			children = (
-				376121F0284B253000C3400F /* RNLinearGradientViewManager.mm */,
-				376121F8284B33D500C3400F /* RNLinearGradientView.h */,
-				376121F9284B355A00C3400F /* RNLinearGradientView.mm */,
-				378C76EA284B885C00ED7209 /* LinearGradientLayer.h */,
-				378C76EB284B888600ED7209 /* LinearGradientLayer.mm */,
-			);
-			path = RNLinearGradientView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		376121EB284B253000C3400F /* RNLinearGradientView */ = {
+		376121EB284B253000C3400F /* RNXGradient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 376121F5284B253000C3400F /* Build configuration list for PBXNativeTarget "RNLinearGradientView" */;
+			buildConfigurationList = 376121F5284B253000C3400F /* Build configuration list for PBXNativeTarget "RNXGradient" */;
 			buildPhases = (
 				376121E8284B253000C3400F /* Sources */,
 				376121E9284B253000C3400F /* Frameworks */,
@@ -87,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = RNLinearGradientView;
+			name = RNXGradient;
 			productName = RNLinearGradientView;
-			productReference = 376121EC284B253000C3400F /* libRNLinearGradientView.a */;
+			productReference = 376121EC284B253000C3400F /* libRNXGradient.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 376121E7284B253000C3400F /* Build configuration list for PBXProject "RNLinearGradientView" */;
+			buildConfigurationList = 376121E7284B253000C3400F /* Build configuration list for PBXProject "RNXGradient" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				376121EB284B253000C3400F /* RNLinearGradientView */,
+				376121EB284B253000C3400F /* RNXGradient */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		376121E7284B253000C3400F /* Build configuration list for PBXProject "RNLinearGradientView" */ = {
+		376121E7284B253000C3400F /* Build configuration list for PBXProject "RNXGradient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				376121F3284B253000C3400F /* Debug */,
@@ -282,7 +274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		376121F5284B253000C3400F /* Build configuration list for PBXNativeTarget "RNLinearGradientView" */ = {
+		376121F5284B253000C3400F /* Build configuration list for PBXNativeTarget "RNXGradient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				376121F6284B253000C3400F /* Debug */,
